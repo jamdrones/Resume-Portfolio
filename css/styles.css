@@ -1,0 +1,359 @@
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 18px;}
+  .margin {
+      font-size: 45px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+  .bg-1 { 
+    background-image: url("../img/matrix.jpg"); /* Matrix Graphic */
+    color: #adf783;
+  }
+  .bg-2 { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #450769; /* Dark Purple */
+    color: #ffffff;
+    padding-bottom: 40px;
+    
+  }
+  
+  
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+
+  .portfolio {
+    background-image: url("../img/matrix.jpg"); /* Matrix Graphic */
+    color: #adf783;
+    }
+
+  .portfolio__card__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .portfolio__title {
+    text-decoration: underline;
+    font-size: 2em;
+    letter-spacing: 3px;
+    padding: 0.5em 0;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  
+  .portfolio__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 275px;
+    margin-bottom: 2em;
+  }
+  
+  .portfolio__card__title {
+    background-color: #141F31;
+    border-radius: 8px 8px 0 0;
+    width: 275px;
+    text-align: center;
+    font-size: 1em;
+    letter-spacing: 3px;
+    padding: 1em 0;
+  }
+  
+  .portfolio__card__image__container {
+    width: 275px;
+    height: 200px;
+  }
+  
+  .pci__one {
+    background-image: url(./../img/employdir.png);
+  }
+  
+  .pci__two {
+    background-image: url(./../img/webapp.png);
+  }
+  
+  .pci__three {
+    background-image: url(./../img/wos.png);
+  }
+  
+  .pci__four {
+    background-image: url(./../img/gallery.png);
+  }
+  
+  .pci__five {
+    background-image: url(./../img/codereview.png);
+  }
+  
+  .pci__one,
+  .pci__two,
+  .pci__three,
+  .pci__four,
+  .pci__five {
+    background-size: cover;
+    transition: opacity 0.5s;
+  }
+  .pci__one:hover,
+  .pci__two:hover,
+  .pci__three:hover,
+  .pci__four:hover,
+  .pci__five:hover {
+    opacity: 0.8;
+  }
+  
+  .portfolio__card__desc {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.2em;
+    letter-spacing: 2px;
+    line-height: 20px;
+    padding: 1em;
+    height: 170px;
+    text-align: center;
+    background-color: #141F31;
+  }
+  
+  .portfolio__card__links {
+    background: #450763;
+    border-radius: 0 0 8px 8px;
+    display: flex;
+    align-items: center;
+    padding: 0.75em 0;
+    justify-content: space-evenly;
+    width: 275px;
+  }
+  
+  .portfolio svg {
+    width: 60px;
+    height: 60px;
+    transition: fill 0.5s;
+  }
+  .portfolio svg:hover {
+    fill: #523351;
+  }
+
+  .contact {
+    background: #450763;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 8em;
+  }
+  
+  .contact__title {
+    text-decoration: underline;
+    font-size: 2em;
+    color:#adf783E3;
+    letter-spacing: 3px;
+    padding: 0.5em 0;
+    margin-bottom: 0.5em;
+  }
+  .contact__input__title {
+    color:#adf783E3;
+  }
+  
+  .form__container {
+    background: #5c2264;
+    padding: 0 1em 1em;
+    width: 275px;
+    border: solid 4px #adf783E3;
+    border-radius: 8px 2px;
+    position: relative;
+  }
+  
+  .contact__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact__item {
+    display: block;
+  }
+  
+  .contact__input__title {
+    padding: 0.75em 0 0.25em;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  
+  .contact__input,
+  .contact__textarea {
+    width: 240px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.1em;
+    letter-spacing: 0.5px;
+    padding: 0.5em;
+    border: none;
+    border-radius: 8px 2px;
+    outline: none;
+    color:  #adf783E3;
+    background-color: #040507;
+  }
+  
+  .contact__input {
+    height: 50px;
+    margin-bottom: 1em;
+  }
+  
+  .contact__textarea {
+    height: 100px;
+    margin-bottom: 0.75em;
+    resize: none;
+  }
+  
+  .contact__submit {
+    background-color:  #adf783E3;
+    border: solid 3px #adf783E3;
+    border-radius: 10px;
+    font-family: inherit;
+    border-color:  #adf783E3;
+    background-color: #1e6801;
+    color: #fff;
+    position: absolute;
+    bottom: -110px;
+    border-width: 5px;
+    border-radius: 2px 8px;
+    margin: 2.4em 0 1em;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    letter-spacing: 5px;
+    font-weight: 600;
+    transition: background-color 0.5s;
+  }
+  .contact__submit:hover {
+    background-color: #307951;
+    cursor: pointer;
+  }
+  
+  canvas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+      
+    }
+  
+  footer {
+    padding: 1em;
+    background-color: rgb(5, 3, 3);
+  }
+  
+  .footer__nav {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer__nav__item {
+    width: 50px;
+    height: 50px;
+    padding: 0.5em;
+  }
+  
+  .footer__nav__item a {
+    fill: #adf783;
+    width: 50px;
+    height: 50px;
+    transition: fill 0.5s;
+  }
+  .footer__nav__item a:hover {
+    fill: #623d61;
+  }
+  
+  .footer__logo {
+    color: #adf783E3;
+    font-weight: 600;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0.25em;
+    padding: 0.25em;
+  }
+  
+  .footer__logo a {
+    color: #adf783;
+    text-decoration: none;
+  }
+
+  @media (min-width: 768px) {
+    .portfolio {
+        padding: 1.5em 0;
+      }
+    
+      .portfolio__title {
+        display: block;
+        text-align: left;
+        font-size: 2.4em;
+        letter-spacing: 8px;
+        margin-left: 50px;
+      }
+    
+      .portfolio__card__container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: auto;
+      }
+    
+      .portfolio__card {
+        margin: 25px 25px;
+      }
+      .contact {
+        padding: 1.5em 0 8em;
+      }
+    
+      .contact__title {
+        font-size: 2.4em;
+        letter-spacing: 8px;
+      }
+    
+      .form__container {
+        width: 600px;
+      }
+    
+      .contact__input,
+    .contact__textarea {
+        width: 400px;
+        font-size: 1.3em;
+      }
+    
+      .contact__textarea {
+        height: 200px;
+      }
+  }
+  
+
+  @media (min-width: 1024px) {
+    .portfolio__title {
+        margin-left: 75px;
+      }
+      
+      
+        
+          
+    }  
