@@ -14,19 +14,21 @@ body {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 100px;
-      }
-  .bg-1 { 
+        font-size: 60px;
+        font-style: italic;
+        font-weight: 700;
+        }
 
+   .bg-1 { 
      background-color: #1abc9c;
-    color: #010200;
+     color: #010200;
   }
   .bg-2 { 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #6ab837; /* Dark Purple */
+    background-color: #9b6db3; 
     color: #ffffff;
     padding-bottom: 40px;
     
@@ -47,12 +49,12 @@ body {
     letter-spacing: 5px;
   }
   .navbar-nav  li a:hover {
-    color: #1abc9c !important;
+    color: #0fda3b !important;
   }
 
   .portfolio {
-    background-image: url("../img/matrix.jpg"); /* Matrix Graphic */
-    color: #adf783;
+    background-color:#0ba8a8;
+    color: #f2f8ef;
     }
 
   .portfolio__card__container {
@@ -81,7 +83,7 @@ body {
   }
   
   .portfolio__card__title {
-    background-color: #141F31;
+    background-color: #03837c;
     border-radius: 8px 8px 0 0;
     width: 275px;
     text-align: center;
@@ -139,11 +141,11 @@ body {
     padding: 1em;
     height: 170px;
     text-align: center;
-    background-color: #141F31;
+    background-color: #03837c;
   }
   
   .portfolio__card__links {
-    background: #450763;
+    background: #5e4e66;
     border-radius: 0 0 8px 8px;
     display: flex;
     align-items: center;
@@ -158,11 +160,11 @@ body {
     transition: fill 0.5s;
   }
   .portfolio svg:hover {
-    fill: #523351;
+    fill: #5a3d59;
   }
 
   .contact {
-    background: #450763;
+    background: #9b6db3;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -173,17 +175,17 @@ body {
   .contact__title {
     text-decoration: underline;
     font-size: 2em;
-    color:#adf783E3;
+    color:#fdfdfd;
     letter-spacing: 3px;
     padding: 0.5em 0;
     margin-bottom: 0.5em;
   }
   .contact__input__title {
-    color:#adf783E3;
+    color:#f8faf8e3;
   }
   
   .form__container {
-    background: #5c2264;
+    background: #1abc9c;
     padding: 0 1em 1em;
     width: 275px;
     border: solid 4px #adf783E3;
@@ -219,8 +221,8 @@ body {
     border: none;
     border-radius: 8px 2px;
     outline: none;
-    color:  #adf783E3;
-    background-color: #040507;
+    color:  #10130fe3;
+    background-color: #e7e9ec;
   }
   
   .contact__input {
@@ -240,7 +242,7 @@ body {
     border-radius: 10px;
     font-family: inherit;
     border-color:  #adf783E3;
-    background-color: #1e6801;
+    background-color: #1abc9c;
     color: #fff;
     position: absolute;
     bottom: -110px;
@@ -258,12 +260,13 @@ body {
     cursor: pointer;
   }
   
-  canvas {
+  .canvas-wrap {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-      
+    justify-content: space-between;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
     }
   
   footer {
@@ -309,14 +312,14 @@ body {
     text-decoration: none;
   }
 
+  
+
   @media (min-width: 768px) {
-    .portfolio {
+      .portfolio {
         padding: 1.5em 0;
       }
-    
       .portfolio__title {
         display: block;
-        text-align: left;
         font-size: 2.4em;
         letter-spacing: 8px;
         margin-left: 50px;
@@ -349,19 +352,14 @@ body {
         width: 400px;
         font-size: 1.3em;
       }
-    
-      .contact__textarea {
+    .contact__textarea {
         height: 200px;
       }
-  }
+    }
   
 
   @media (min-width: 1024px) {
     .portfolio__title {
         margin-left: 75px;
       }
-      
-      
-        
-          
-    }  
+   }  
