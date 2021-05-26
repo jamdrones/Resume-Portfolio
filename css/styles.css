@@ -65,9 +65,8 @@ body {
   }
   
   .portfolio__title {
-    text-decoration: underline;
-    font-size: 2em;
-    letter-spacing: 3px;
+    font-size: 3em;
+    letter-spacing: 2px;
     padding: 0.5em 0;
     margin-bottom: 1em;
     text-align: center;
@@ -173,10 +172,9 @@ body {
   }
   
   .contact__title {
-    text-decoration: underline;
-    font-size: 2em;
+    font-size: 3em;
     color:#fdfdfd;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     padding: 0.5em 0;
     margin-bottom: 0.5em;
   }
