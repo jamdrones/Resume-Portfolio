@@ -1,0 +1,94 @@
+.portfolio__card__links {
+    font-size: 3em;
+    letter-spacing: 2px;
+    padding: 0.5em 0;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+
+  .portfolio {
+    background-color:#0ba8a8;
+    color: #f2f8ef;
+    }
+
+  .portfolio__card__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .portfolio__title {
+    font-size: 3em;
+    letter-spacing: 2px;
+    padding: 0.5em 0;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  
+  .portfolio__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    margin-bottom: 2em;
+  }
+  
+  .portfolio__card__title {
+    background-color: #03837c;
+    border-radius: 8px 8px 0 0;
+    width: 1000px;
+    text-align: center;
+    font-size: 1em;
+    letter-spacing: 3px;
+    padding: 1em 0;
+  }
+  
+  .portfolio__card__image__container {
+    width: 1000px;
+    height: 717px;
+  }
+
+  .pci__one {
+    background-image: url(./../img/employdir.png);
+  }
+  
+  .pci__one {
+    background-size: cover;
+    transition: opacity 0.5s;
+  }
+
+  .pci__one:hover {
+    opacity: 0.8;
+  }
+
+  .portfolio__card__desc {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.2em;
+    letter-spacing: 2px;
+    line-height: 20px;
+    padding: 7em;
+    height: 170px;
+    text-align: center;
+    background-color: #03837c;
+  }
+  
+  .portfolio__card__links {
+    background: #5e4e66;
+    border-radius: 0 0 8px 8px;
+    display: flex;
+    align-items: center;
+    padding: 0.75em 0;
+    justify-content: space-evenly;
+    width: 1000px;
+  }
+
+    .portfolio svg {
+    width: 60px;
+    height: 60px;
+    transition: fill 0.5s;
+  }
+  .portfolio svg:hover {
+    fill: #5a3d59;
+  }
