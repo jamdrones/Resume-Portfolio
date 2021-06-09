@@ -74,22 +74,11 @@ p {font-size: 18px;}
   margin-bottom: 2em;
 }
 
-
-
-#pci__one {
-  display: flex;
-  width: 1000px;
-  margin-bottom: 2em;
-  
+#pci__one:hover {
+  opacity: .9;
 }
 
-.pci__one {
-  background-size: contain;
-  transition: opacity 0.5s;
-}
-.pci__one:hover {
-  opacity: 0.8;
-}
+
 
 .portfolio__card__desc {
   font-family: "Montserrat", sans-serif;
