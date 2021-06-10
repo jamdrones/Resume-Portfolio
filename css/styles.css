@@ -116,12 +116,17 @@ body {
   .pci__five {
     background-image: url(./../img/codereview.png);
   }
+
+  .pci__six {
+    background-image: url(./../img/insure.png);
+  }
   
   .pci__one,
   .pci__two,
   .pci__three,
   .pci__four,
-  .pci__five {
+  .pci__five,
+  .pci__six {
     background-size: cover;
     transition: opacity 0.5s;
   }
@@ -129,7 +134,8 @@ body {
   .pci__two:hover,
   .pci__three:hover,
   .pci__four:hover,
-  .pci__five:hover {
+  .pci__five:hover,
+  .pci__six:hover {
     opacity: 0.8;
   }
   
