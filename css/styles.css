@@ -29,7 +29,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #9b6db3; 
+    background-colo: #9b6db3; 
     color: #ffffff;
     padding-bottom: 40px;
     
@@ -121,10 +121,14 @@ body {
     background-image: url(./../img/insure.png);
   }
   
+  .pci__three,
+  .pci__four {
+    background-size: contain;
+    transition: opacity 0.5s;
+  }
+
   .pci__one,
   .pci__two,
-  .pci__three,
-  .pci__four,
   .pci__five,
   .pci__six {
     background-size: cover;
