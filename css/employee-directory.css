@@ -2,7 +2,7 @@ body {
   box-sizing: border-box;
   font: 20px Montserrat, sans-serif;
   line-height: 1.8;
-  color: #f5f6f7;
+  color: #000;
 }
 p {font-size: 18px;}
 .margin {
@@ -11,8 +11,7 @@ p {font-size: 18px;}
     margin-bottom: 40px;
   }
   
-
- .bg-1 { 
+.bg-1 { 
    background-color: #1abc9c;
    color: #010200;
 }
@@ -22,16 +21,15 @@ p {font-size: 18px;}
   justify-content: center;
   align-items: center;
   background-color: 9b6db3; 
-  color: #ffffff;
+  color: #000;
   padding-bottom: 40px;
-  
 }
-
 
 .container-fluid {
   padding-top: 70px;
   padding-bottom: 70px;
 }
+
 .navbar {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -47,7 +45,7 @@ p {font-size: 18px;}
 
 .portfolio {
   background-color:#0ba8a8;
-  color: #f2f8ef;
+  color: #000
   }
 
 .portfolio__card__container {
@@ -77,8 +75,6 @@ p {font-size: 18px;}
 #pci__one:hover {
   opacity: .9;
 }
-
-
 
 .portfolio__card__desc {
   font-family: "Montserrat", sans-serif;

@@ -5,32 +5,32 @@ body {
     color: #f5f6f7;
   }
   p {font-size: 18px;}
+  
   .margin {
       font-size: 45px;
       margin-top: 40px;
       margin-bottom: 40px;
     }
     
-  
-   .bg-1 { 
+    .bg-1 { 
      background-color: #1abc9c;
      color: #010200;
-  }
-  .bg-2 { 
+    }
+
+   .bg-2 { 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #ffffff;
     padding-bottom: 40px;
-    
   }
-  
   
   .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
   }
+
   .navbar {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -40,13 +40,19 @@ body {
     font-size: 12px;
     letter-spacing: 5px;
   }
-  .navbar-nav  li a:hover {
-    color: #0fda3b !important;
+
+  .navbar-default .navbar-brand {
+    color: #000;
+    font-weight: bold;
+  }
+
+  .navbar-nav, li a:hover {
+    color: #000 !important;
   }
   
   .portfolio {
     background-color:#0ba8a8;
-    color: #f2f8ef;
+    color: #000;
     }
   
   .portfolio__card__container {
@@ -76,11 +82,11 @@ body {
     padding: 1em;
     height: 170px;
     text-align: center;
- }
+  }
 
  p {
     margin: 12px 24px 0px;
-}
+  }
   
   .portfolio svg {
     width: 60px;
@@ -122,6 +128,7 @@ body {
     height: 80px;
     transition: fill 0.5s;
   }
+
   .footer__nav__item a:hover {
     fill: #623d61;
   }
