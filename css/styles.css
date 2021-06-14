@@ -21,7 +21,7 @@ body {
         }
 
    .bg-1 { 
-     background-color: #1abc9c;
+     background-color: #0ba8a8;
      color: #010200;
   }
   .bg-2 { 
@@ -29,7 +29,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-colo: #9b6db3; 
     color: #ffffff;
     padding-bottom: 40px;
     
@@ -175,7 +174,6 @@ body {
   }
 
   .contact {
-    background: #9b6db3;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -195,10 +193,10 @@ body {
   }
   
   .form__container {
-    background: #1abc9c;
+    background: #5e4e66;
     padding: 0 1em 1em;
     width: 275px;
-    border: solid 4px #adf783E3;
+    border: solid 4px black;
     border-radius: 8px 2px;
     position: relative;
   }
@@ -251,8 +249,8 @@ body {
     border: solid 3px #adf783E3;
     border-radius: 10px;
     font-family: inherit;
-    border-color:  #adf783E3;
-    background-color: #1abc9c;
+    border-color:  black;
+    background-color: #5e4e66;
     color: #fff;
     position: absolute;
     bottom: -110px;
@@ -313,8 +311,8 @@ body {
     font-size: 0.8em;
     letter-spacing: 2px;
     text-align: center;
-    margin: 0.25em;
     padding: 0.25em;
+    padding-left: 28px;
   }
   
   .footer__logo a {
