@@ -6,7 +6,7 @@ body {
   }
 
   p {font-size: 18px;}
-  
+
   .margin {
       font-size: 45px;
       margin-top: 40px;
@@ -18,14 +18,17 @@ body {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 60px;
-        font-style: italic;
-        font-weight: 700;
       }
 
    .bg-1 { 
      background-color: #0ba8a8;
      color: #010200;
+    }
+
+    #name1 {
+      font-size: 100px;
+      font-style: italic;
+      font-weight: bolder;
     }
   
     .bg-2 { 
@@ -52,6 +55,11 @@ body {
     font-size: 12px;
     letter-spacing: 5px;
   }
+
+  .navbar-default {
+    background-color: rgb(255, 255, 255); 
+    border-color: #e7e7e7;
+}
 
   .navbar-brand {
     color: #000 !important;
