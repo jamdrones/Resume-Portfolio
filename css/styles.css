@@ -8,10 +8,10 @@ body {
   p {font-size: 18px;}
 
   .margin {
-      font-size: 45px;
-      margin-top: 40px;
-      margin-bottom: 40px;
-    }
+    font-size: 50px;
+    color: #fff;
+    padding-top: 50px;
+      }
 
     .centered {
         position: absolute;
@@ -33,17 +33,19 @@ body {
   
     .bg-2 { 
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    color: #000;
-    padding-bottom: 40px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 45px;
     }
   
   
   .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 7px;
+    padding-bottom: 35px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .navbar {
@@ -70,9 +72,21 @@ body {
     color: #000 !important;
   }
 
+  .about-me {
+    font-size: 50px;
+    color: #fff;
+    padding-top: 2em;
+    }
+
+    .about-des {
+      font-size: 30px;
+      padding-left: 4px;
+      padding-right: 4px;
+    }
+
   .portfolio {
     background-color:#0ba8a8;
-    color: #000;
+    color: rgb(255, 255, 255);
     }
 
   .portfolio__card__container {
@@ -167,7 +181,7 @@ body {
     letter-spacing: 2px;
     line-height: 20px;
     padding: 1em;
-    height: 170px;
+    height: 120px;
     text-align: center;
     background-color: #03837c;
   }
@@ -189,7 +203,7 @@ body {
   }
   
   .portfolio svg:hover {
-    fill: #5a3d59;
+    fill: #ffffff;
   }
 
   .contact {
@@ -202,7 +216,7 @@ body {
   
   .contact__title {
     font-size: 3em;
-    color:#000;
+    color:rgb(255, 255, 255);
     letter-spacing: 2px;
     padding: 0.5em 0;
     margin-bottom: 0.5em;
