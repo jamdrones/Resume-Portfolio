@@ -212,6 +212,7 @@ body {
     align-items: center;
     justify-content: center;
     padding-bottom: 8em;
+    background-color: #0ba8a8;
   }
   
   .contact__title {
@@ -223,7 +224,7 @@ body {
   }
 
   .contact__input__title {
-    color:#fff;
+    color:rgb(255, 255, 255);
   }
   
   .form__container {
@@ -307,9 +308,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    
     }
   
   footer {
