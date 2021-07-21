@@ -108,8 +108,7 @@ p {
 
 footer {
   padding-top: 3px;
-  padding-left: 100%;
-  padding-right: 100%;
+  width: 100%;
   padding-bottom: 30px;
   background-color: #f5f6f7;
 }
@@ -118,7 +117,7 @@ footer {
   display: flex;
   list-style: none;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content:center
 }
 
 ol, ul {
