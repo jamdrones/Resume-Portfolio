@@ -86,6 +86,21 @@ body {
       padding-right: 3px;
     }
 
+    .work-exp {
+      background-color:#0ba8a8;
+      text-align: left;
+      color:rgb(255, 255, 255);
+      padding: 10px 10px;
+    }
+    .work-exp-title {
+      text-align: center;
+      font-size: 50px;
+      padding: 25px 10px;
+    }
+    .work-dets {
+      font-size: 25px;
+    }
+
   .portfolio {
     background-color:#0ba8a8;
     color: rgb(255, 255, 255);
@@ -311,6 +326,39 @@ body {
     flex-direction: column;
     justify-content: space-between;
     }
+
+  .comm-helper {
+    background-color:#0ba8a8;
+      align-content: center;
+      color:rgb(255, 255, 255);
+      padding-top: 5%;
+      padding-bottom: 45%;
+      padding-left: 2%;
+      padding-right: 2%;
+  }
+ .comm-helper-title {
+    text-align: center;
+    font-size: 50px;
+    padding: 25px 10px;
+  }
+
+  .comm-img  {
+    display: flex;
+    justify-content: space-evenly;
+    float: left;
+    border-radius: 10px;
+    padding: 5px 5px;
+  }
+
+  .comm-helper-des {
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  
+
+  
   
   footer {
     padding: 1em;
