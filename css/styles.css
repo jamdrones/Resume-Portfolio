@@ -90,7 +90,7 @@ body {
       background-color:#0ba8a8;
       text-align: left;
       color:rgb(255, 255, 255);
-      padding: 10px 10px;
+      padding: 1px 10px;
     }
     .work-exp-title {
       text-align: center;
@@ -138,6 +138,7 @@ body {
     text-align: center;
     font-size: 1em;
     letter-spacing: 3px;
+    margin-top: 0px;
     padding: 1em 0;
   }
   
@@ -356,10 +357,6 @@ body {
     padding-bottom: 5px;
   }
 
-  
-
-  
-  
   footer {
     padding: 1em;
     background-color: rgb(5, 3, 3);
@@ -421,6 +418,12 @@ body {
       color: rgb(255, 255, 255);
       padding-bottom: 45px;
       }
+
+      .work-dets {
+        font-size: 25px;
+        padding-left: 5%;
+        padding-right: 5%;
+      }
     
       .portfolio {
         padding: 1.5em 0;
@@ -462,7 +465,15 @@ body {
     .contact__textarea {
         height: 200px;
       }
-    }
+    
+      .comm-helper-des {
+        font-size: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 1%;
+        padding-right: 1%;
+      }
+  }
   
  @media (min-width: 1024px) {
   .bg-2 { 
@@ -473,8 +484,22 @@ body {
     color: rgb(255, 255, 255);
     padding-bottom: 45px;
     }
+
+    .work-dets {
+      font-size: 25px;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
   
   .portfolio__title {
         margin-left: 75px;
+      }
+
+      .comm-helper-des {
+        font-size: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 1%;
+        padding-right: 1%;
       }
    }  
